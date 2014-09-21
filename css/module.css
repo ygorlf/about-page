@@ -1,0 +1,59 @@
+/* Reuse is everything... */
+
+.star-line {
+	width: 250px;
+	height: 6px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:#fff;
+	color:#fff;
+	border: 0 none;
+}
+
+.star-line:after {
+	content: '\f005';
+	width: 10px;
+	font-size: 2em;
+	position: relative;
+	top: -.4em;
+	left: 100px;
+	padding: 0 .25em;
+	background: tomato;
+	z-index: 1;
+}
+
+.star-line-blue {
+	background: #2c3e50;
+	color: #2c3e50;
+}
+
+.star-line-blue:after {
+	background: white;
+}
+
+.clear {
+	clear: both;
+}
+
+.center {
+	text-align: center;
+}
+
+.btn-social {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	font-size: 30px;
+	line-height: 50px;
+	text-align: center;
+}
+
+header a:hover {
+	color: tomato;
+}
+
+.btn-social:hover {
+	color: tomato;
+}

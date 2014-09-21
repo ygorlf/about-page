@@ -1,0 +1,91 @@
+/* Font Awesome Icons */
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../font/fontawesome-webfont.eot?v=3.0.1');
+  src: url('../font/fontawesome-webfont.eot?#iefix&v=3.0.1') format('embedded-opentype'),
+  url('../font/fontawesome-webfont.woff?v=3.0.1') format('woff'),
+  url('../font/fontawesome-webfont.ttf?v=3.0.1') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+/* Colors are Awesome... */
+
+header {
+	background: #2c3e50;
+	z-index: 2;
+}
+
+header a {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+
+/* Hero Section Colors */
+
+#hero {
+	background: tomato;
+	background-size: 100%;
+}
+
+#hero h2, h3 {
+	color: #fff;
+}
+
+#hero span {
+	color: white;
+}
+
+/* Portfolio Section Colors and some Styles */
+
+#portfolio h2 {
+	color: #2c3e50;
+	text-transform: uppercase;
+}
+
+#portfolio img {
+	box-shadow: 3px 5px 7px rgba(0,0,0, 0.75);
+}
+
+/* About */
+
+#about {
+	background: tomato;
+	color: #fff;
+}
+
+/* Contact */
+
+#contact h2 {
+	color: #2c3e50;
+	text-transform: uppercase;
+}
+
+#contact p {
+	color: #2c3e50;
+}
+
+/* Footer */
+
+footer {
+	background: #2c3e50;
+	color: #fff;
+}
+
+.web li a {
+	color: white;
+}
+
+.one-page-lover a {
+	color: tomato;
+}
+
+#copyright {
+	background: #233140;
+	color: #fff;
+}

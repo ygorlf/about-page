@@ -1,0 +1,135 @@
+/* Layout and Responsive Media Queries */
+
+/* Master Container */
+#wrapper {
+	width: 80%;
+	margin: 0 auto;
+	max-width: 1020px;
+}
+
+/* Fixed Menu  */
+header {
+	width: 100%;
+	height: 100px;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+/* vertical align hack */
+header h1 {
+	margin: auto;
+	height: auto;
+	display: table;
+	position: absolute;
+	top: 0; right: auto; bottom: 0; left: 5%;
+}
+
+/* vertical align hack */
+header ul {
+	margin: auto;
+	height: auto;
+	display: table;
+	position: absolute;
+	top: 0; right: 5%; bottom: 0;
+}
+
+
+header ul li {
+	display: inline-block;
+	margin-left: 1em;
+}
+
+/* Intro */
+
+#hero {
+	padding: 10% 0 2%;
+}
+
+#hero img {
+	display: block;
+	margin: 40px auto;
+}
+
+/* Portfolio Images, positioning with float and percentage... */
+
+#portfolio {
+	padding: 5% 0 5%;
+}
+
+#portifolio ul {
+	width: 100%;
+}
+
+#portfolio ul li {
+	width: 30%;
+	margin-right: 3.33%;
+	margin-top: 2em;
+	float: left;
+}
+
+/* About */
+
+#about {
+	width: 100%;
+	padding: 3% 0 3%;
+}
+
+#about p {
+	width: 47.5%;
+	float: left;
+	line-height: 1.7em;
+}
+
+#about p.first {
+	margin-right: 2.5%;
+}
+
+#about p.last {
+	margin-left: 2.5%;
+}
+
+#contact {
+	padding: 5% 0 5%;
+}
+
+#contact p {
+	text-align: center;
+}
+
+/* Footer */
+
+footer {
+	padding: 5% 0 5%;
+}
+
+footer section {
+	width: 30%;
+	float: left;
+}
+
+footer .location, .web {
+	margin-right: 3.33%;
+	text-align: center;
+	line-height: 1.7em;
+}
+
+footer .one-page-lover {
+	margin-left: 3.33%;
+}
+
+footer .one-page-lover p {
+	text-align: center;
+	line-height: 1.7em;
+}
+
+footer .web ul>li {
+	display: inline-block;
+}
+
+#copyright {
+	width: 100%;
+	padding: 2% 0 2%;
+	text-align: center;
+}
+
