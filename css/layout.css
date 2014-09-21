@@ -10,7 +10,7 @@
 /* Fixed Menu  */
 header {
 	width: 100%;
-	height: 100px;
+	height: 80px;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -43,7 +43,7 @@ header ul li {
 /* Intro */
 
 #hero {
-	padding: 10% 0 2%;
+	padding: 85px 0 85px;
 }
 
 #hero img {
@@ -54,7 +54,7 @@ header ul li {
 /* Portfolio Images, positioning with float and percentage... */
 
 #portfolio {
-	padding: 10% 0 5%%;
+	padding: 85px 0 85px;
 }
 
 #portifolio ul {
@@ -72,7 +72,7 @@ header ul li {
 
 #about {
 	width: 100%;
-	padding: 10% 0 5%;
+	padding: 85px 0 85px;
 }
 
 #about p {
@@ -89,8 +89,10 @@ header ul li {
 	margin-left: 2.5%;
 }
 
+/* Contact */
+
 #contact {
-	padding: 10% 0 5%;
+	padding: 85px 0 85px;
 }
 
 #contact p {
