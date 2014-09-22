@@ -146,7 +146,13 @@ footer .web ul>li {
 	}
 }
 
+/* Smartphones */
+
 @media screen and (max-width: 480px) {
+
+	a:visited, a:active {
+		color: white;
+	}
 
 	#portfolio ul li {
 		width: 95%;
