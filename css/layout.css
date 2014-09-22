@@ -135,3 +135,35 @@ footer .web ul>li {
 	text-align: center;
 }
 
+
+/* Responsive Media Queries for Layout */
+
+@media screen and (max-width: 960px) {
+
+	#portfolio ul li {
+		width: 45%;
+		margin: 2.5%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+
+	#portfolio ul li {
+		width: 95%;
+		margin: 2.5%
+	}
+
+	#about p {
+		display: block;
+		width: 90%;
+		text-align: center;
+		margin-top: 1.5em;
+	}
+
+	footer section {
+		display: block;
+		width: 90%;
+		text-align: center;
+		margin-top: 1.5em;
+	}
+}
