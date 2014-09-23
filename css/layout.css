@@ -172,4 +172,8 @@ footer .web ul>li {
 		text-align: center;
 		margin-top: 1.5em;
 	}
+
+	footer #copyright {
+		margin-top: 0;
+	}
 }

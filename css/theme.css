@@ -90,3 +90,7 @@ footer {
 	background: #233140;
 	color: #fff;
 }
+
+#copyright span {
+	font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
+}
