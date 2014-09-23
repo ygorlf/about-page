@@ -150,8 +150,17 @@ footer .web ul>li {
 
 @media screen and (max-width: 480px) {
 
-	a:visited, a:active {
-		color: white;
+	header h1 {
+		display: block;
+		position: static;
+		text-align: center;
+		margin: 10px 0;
+	}
+
+	header ul {
+		display: block;
+		position: static;
+		text-align: center;
 	}
 
 	#portfolio ul li {
