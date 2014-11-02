@@ -1,6 +1,9 @@
 /* Reuse is everything... */
 
 .star-line {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	width: 250px;
 	height: 6px;
 	margin-left: auto;
@@ -12,12 +15,8 @@
 
 .star-line:after {
 	content: '\f005';
-	width: 10px;
 	font-size: 2em;
-	position: relative;
-	top: -.4em;
-	left: 100px;
-	padding: 0 .25em;
+	padding: 0 0.25em;
 	background: tomato;
 	z-index: 1;
 }
@@ -78,6 +77,9 @@ header a:hover {
 
 .caption2::before,
 .caption2::after {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	box-sizing: border-box;
 	opacity: 0;
 	position: absolute;
@@ -91,18 +93,15 @@ header a:hover {
 
 .caption2::after {
 	height: 30%;
-	line-height: 30%;
 }
 
 .caption2::before {
 	height: 70%;
-	line-height: 1.4em;
 }
 
 .caption2::after {
 	content: attr(data-title);
 	top: 0;
-	text-align: center;
 	background: rgba(255,99,71, 0.75);
 	font-size: 2em;
 	padding: 20px;

@@ -13,32 +13,31 @@ header {
 	height: 80px;
 	position: fixed;
 	top: 0;
-	left: 0;
 }
+
+
+
 
 /* vertical align hack */
 header h1 {
-	margin: auto;
-	height: auto;
 	display: table;
 	position: absolute;
 	top: 0; right: auto; bottom: 0; left: 5%;
+	margin: auto;
 }
 
-/* vertical align hack */
 header ul {
-	margin: auto;
-	height: auto;
 	display: table;
 	position: absolute;
-	top: 0; right: 5%; bottom: 0;
+	top: 0; right: 5%; bottom: 0; left: auto;
+	margin: auto;
 }
-
 
 header ul li {
 	display: inline-block;
-	margin-left: 1em;
+	margin-left: .9em;
 }
+
 
 /* Intro */
 
@@ -150,6 +149,12 @@ footer .web ul>li {
 
 @media screen and (max-width: 480px) {
 
+	header {
+		display: flex;
+		height: 100px;
+		align-items: center;
+	}
+
 	header h1 {
 		display: block;
 		position: static;
@@ -161,6 +166,7 @@ footer .web ul>li {
 		display: block;
 		position: static;
 		text-align: center;
+		margin-bottom: 10px;
 	}
 
 	#portfolio ul li {
