@@ -2,9 +2,9 @@
 
 /* Master Container */
 #wrapper {
-	width: 80%;
+	width: 85%;
 	margin: 0 auto;
-	max-width: 1060px;
+	max-width: 1400px;
 }
 
 /* Fixed Menu  */
@@ -13,24 +13,18 @@ header {
 	height: 80px;
 	position: fixed;
 	top: 0;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
-
-
-
-/* vertical align hack */
-header h1 {
-	display: table;
-	position: absolute;
-	top: 0; right: auto; bottom: 0; left: 5%;
-	margin: auto;
+.logo {
+	margin: 0 auto 0 7.5%;
 }
 
-header ul {
-	display: table;
-	position: absolute;
-	top: 0; right: 5%; bottom: 0; left: auto;
-	margin: auto;
+nav {
+	margin: 0 7.5% 0 auto;
 }
 
 header ul li {
@@ -50,21 +44,22 @@ header ul li {
 	margin: 40px auto;
 }
 
-/* Portfolio Images, positioning with float and percentage... */
+/* Portfolio Images, positioning with flexbox... */
 
 #portfolio {
 	padding: 85px 0 85px;
 }
 
-#portifolio ul {
+#portfolio ul {
 	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 45px;
 }
 
 #portfolio ul li {
-	width: 30%;
-	margin-right: 3.33%;
-	margin-top: 2em;
-	float: left;
+	width: 33.33%;
 }
 
 /* About */
